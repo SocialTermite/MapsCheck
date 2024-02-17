@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8446F522B80DDB700BBB67B /* CarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8446F512B80DDB700BBB67B /* CarMarkerView.swift */; };
+		E8446F542B80F37900BBB67B /* CarDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8446F532B80F37900BBB67B /* CarDetailsView.swift */; };
 		E8FEBE552B80CC3000257076 /* MapsCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEBE542B80CC3000257076 /* MapsCheckApp.swift */; };
-		E8FEBE572B80CC3000257076 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEBE562B80CC3000257076 /* ContentView.swift */; };
+		E8FEBE572B80CC3000257076 /* MapOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEBE562B80CC3000257076 /* MapOverviewView.swift */; };
 		E8FEBE592B80CC3200257076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FEBE582B80CC3200257076 /* Assets.xcassets */; };
 		E8FEBE5C2B80CC3200257076 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FEBE5B2B80CC3200257076 /* Preview Assets.xcassets */; };
 		E8FEBE662B80CC3200257076 /* MapsCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEBE652B80CC3200257076 /* MapsCheckTests.swift */; };
 		E8FEBE702B80CC3200257076 /* MapsCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEBE6F2B80CC3200257076 /* MapsCheckUITests.swift */; };
 		E8FEBE722B80CC3200257076 /* MapsCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEBE712B80CC3200257076 /* MapsCheckUITestsLaunchTests.swift */; };
+		E8FEBE7F2B80CC6E00257076 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEBE7E2B80CC6E00257076 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8446F512B80DDB700BBB67B /* CarMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMarkerView.swift; sourceTree = "<group>"; };
+		E8446F532B80F37900BBB67B /* CarDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsView.swift; sourceTree = "<group>"; };
 		E8FEBE512B80CC3000257076 /* MapsCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FEBE542B80CC3000257076 /* MapsCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsCheckApp.swift; sourceTree = "<group>"; };
-		E8FEBE562B80CC3000257076 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8FEBE562B80CC3000257076 /* MapOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOverviewView.swift; sourceTree = "<group>"; };
 		E8FEBE582B80CC3200257076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FEBE5B2B80CC3200257076 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8FEBE612B80CC3200257076 /* MapsCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,8 @@
 		E8FEBE6B2B80CC3200257076 /* MapsCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FEBE6F2B80CC3200257076 /* MapsCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsCheckUITests.swift; sourceTree = "<group>"; };
 		E8FEBE712B80CC3200257076 /* MapsCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8FEBE7E2B80CC6E00257076 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		E8FEBE802B80D3E800257076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +101,14 @@
 		E8FEBE532B80CC3000257076 /* MapsCheck */ = {
 			isa = PBXGroup;
 			children = (
+				E8FEBE802B80D3E800257076 /* Info.plist */,
 				E8FEBE542B80CC3000257076 /* MapsCheckApp.swift */,
-				E8FEBE562B80CC3000257076 /* ContentView.swift */,
+				E8FEBE7E2B80CC6E00257076 /* APIClient.swift */,
+				E8FEBE562B80CC3000257076 /* MapOverviewView.swift */,
 				E8FEBE582B80CC3200257076 /* Assets.xcassets */,
 				E8FEBE5A2B80CC3200257076 /* Preview Content */,
+				E8446F512B80DDB700BBB67B /* CarMarkerView.swift */,
+				E8446F532B80F37900BBB67B /* CarDetailsView.swift */,
 			);
 			path = MapsCheck;
 			sourceTree = "<group>";
@@ -257,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FEBE572B80CC3000257076 /* ContentView.swift in Sources */,
+				E8FEBE572B80CC3000257076 /* MapOverviewView.swift in Sources */,
+				E8446F542B80F37900BBB67B /* CarDetailsView.swift in Sources */,
+				E8446F522B80DDB700BBB67B /* CarMarkerView.swift in Sources */,
 				E8FEBE552B80CC3000257076 /* MapsCheckApp.swift in Sources */,
+				E8FEBE7F2B80CC6E00257076 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -424,6 +438,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapsCheck/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapsCheck/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed for...";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +469,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapsCheck/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapsCheck/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed for...";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
